@@ -1,0 +1,5 @@
+url = "http://cd.58.com/pinpaigongyu/pn/{page}/?minprice=1000_1500"
+crawl.py中的URL是成都58的地址，针对不同地方自行更改。
+index.html中也要相应更改
+
+注意：rent.csv中可能配置不同会乱码，乱码会导致不能成功运行，如果出现网页上不能出现标记，请检查是否乱码，乱码抢更改为UTF-8格式。
